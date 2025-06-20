@@ -418,54 +418,54 @@ modes:
   micro:
     markers:
       fig:
-        icon: "🟣"
+        icon: U+1F7E3 # 🟣
       cherry:
-        icon: "🍒"
+        icon: U+1F352 # 🍒
       cherry_plum:
-        icon: "🍒"
+        icon: U+1F352 # 🍒
       kaki:
-        icon: "🍑"
+        icon: U+1F351 # 🍑
       pomegranate:
-        icon: "🍎"
+        icon: U+1F34E # 🍎
       olive:
-        icon: "🫒"
+        icon: U+1FAD2 # 🫒
       kiwi:
-        icon: "🥝"
+        icon: U+1F95D # 🥝
       ginkgo:
-        icon: "🌳"
+        icon: U+1F333 # 🌳
       monkey_puzzle:
-        icon: "🌲"
+        icon: U+1F332 # 🌲
       paulownia:
-        icon: "🌸"
+        icon: U+1F338 # 🌸
       robinia:
-        icon: "💮"
+        icon: U+1F4AE # 💮
       medlar:
-        icon: "🟤"
+        icon: U+1F7E4 # 🟤
       quince:
-        icon: "🍐"
+        icon: U+1F350 # 🍐
       apple:
-        icon: "🍏"
+        icon: U+1F34F # 🍏
       pear:
-        icon: "🍐"
+        icon: U+1F350 # 🍐
       plum:
-        icon: "🫐"
+        icon: U+1FAD0 # 🫐
       loquat:
-        icon: "🟠"
+        icon: U+1F7E0 # 🟠
       rowanberry:
-        icon: "🔴"
+        icon: U+1F534 # 🔴
       elderberry:
-        icon: "⚫️"
+        icon: U+2BAB U+FE0F # ⚫️
       black_mulberry:
-        icon: "⚫️"
+        icon: U+2BAB U+FE0F # ⚫️
       red_mulberry:
-        icon: "🔴"
+        icon: U+1F534 # 🔴
       white_mulberry:
-        icon: "⚪️"
+        icon: U+2BAB U+FE0F # ⚪️
       blackberry:
-        icon: "🍇"
+        icon: U+1F347 # 🍇
       chestnut:
-        icon: "🌰"
+        icon: U+1F330 # 🌰
       hazelnut:
-        icon: "🌰"
+        icon: U+1F330 # 🌰
       walnut:
-        icon: "🌰"
+        icon: U+1F330 # 🌰
