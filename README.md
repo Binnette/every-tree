@@ -31,7 +31,11 @@ rm -f every-tree.edp every-door-micro.edp
 zip -r every-tree.edp icons/ langs/ LICENSE plugin.yaml
 
 # Create the micro version of the plugin
-zip -g every-door-micro.edp icons/ langs/ LICENSE plugin-micro.yaml && zipnote every-door-micro.edp | sed '/@ plugin-micro.yaml/ a @=plugin.yaml' | zipnote -w every-door-micro.edp
+mkdir -p tmp-edp
+cp -r icons langs LICENSE tmp-edp/
+cp plugin-micro.yaml tmp-edp/plugin.yaml
+(cd tmp-edp && zip -r ../every-door-micro.edp .)
+rm -rf tmp-edp
 ```
 
 ### Using PowerShell
