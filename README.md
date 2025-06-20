@@ -24,7 +24,11 @@ The plugin provides a set of common tree species presets to help you tag tree sp
 ### Using bash
 
 ```bash
-zip -r every-tree.edp icons/ langs/ LICENSE plugin.yaml README.md
+# Create the classic plugin
+zip -r every-tree.edp icons/ langs/ LICENSE plugin.yaml
+
+# Create the micro version of the plugin
+zip -g every-door-micro.edp icons/ langs/ LICENSE plugin-micro.yaml && zipnote every-door-micro.edp | sed '/@ plugin-micro.yaml/ a @=plugin.yaml' | zipnote -w every-door-micro.edp
 ```
 
 ### Using PowerShell
@@ -43,6 +47,17 @@ Or [⬇️ download the plugin here](https://raw.githubusercontent.com/Binnette/
 
 [🔍 More information on installation](https://every-door.app/plugins/install/).
 
+### Install the micro version
+
+![QR Code micro](assets/qr-code-micro.png)
+
 ## 📝 Todo list
 - [ ] Ask all my questions to Ilya.
 - [ ] Draw custom icons for each tree species.
+- [ ] Add a second button for `natural=shrub` with plants :
+    - "🍇 Blackberry" species="Rubus fruticosus"
+    - "🔴 Raspberry" species="Rubus idaeus"
+    - Juniperus communis
+    - "Sambucus nigra"
+    - "blueberry
+    - "🌱 Strawberry" species="Fragaria vesca"

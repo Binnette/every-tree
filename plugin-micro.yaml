@@ -1,0 +1,441 @@
+---
+id: every-tree-micro
+name: Every Tree (Micro)
+version: 0.1
+description: |
+  This plugin is dedicated to mapping trees in OpenStreetMap.
+author: Binnette binnette@gmail.com
+icon: every-tree-logo.svg
+homepage: https://github.com/Binnette/every-tree
+source: https://raw.githubusercontent.com/Binnette/every-tree/refs/heads/main/every-tree-micro.edp
+experimental: true
+
+presets:
+  fig:
+    name: "🟣 Fig"
+    terms: [fig, ficus, carica]
+    area: false
+    tags:
+      natural: tree
+      species: "Ficus carica"
+    addTags:
+      natural: tree
+      genus: "Ficus"
+      species: "Ficus carica"
+
+  cherry:
+    name: "🍒 Cherry"
+    terms: [cherry, prunus, avium]
+    area: false
+    tags:
+      natural: tree
+      species: "Prunus avium"
+    addTags:
+      natural: tree
+      genus: "Prunus"
+      species: "Prunus avium"
+
+  cherry_plum:
+    name: "🍒 Cherry plum"
+    terms: [cherry plum, prunus, cerasifera]
+    area: false
+    tags:
+      natural: tree
+      species: "Prunus cerasifera"
+    addTags:
+      natural: tree
+      genus: "Prunus"
+      species: "Prunus cerasifera"
+
+  kaki:
+    name: "🍑 Kaki"
+    terms: [kaki, diospyros]
+    area: false
+    tags:
+      natural: tree
+      species: "Diospyros kaki"
+    addTags:
+      natural: tree
+      genus: "Diospyros"
+      species: "Diospyros kaki"
+
+  pomegranate:
+    name: "🍎 Pomegranate"
+    terms: [pomegranate, punica, granatum]
+    area: false
+    tags:
+      natural: tree
+      species: "Punica granatum"
+    addTags:
+      natural: tree
+      genus: "Punica"
+      species: "Punica granatum"
+
+  olive:
+    name: "🫒 Olive"
+    terms: [olive, olea, europaea]
+    area: false
+    tags:
+      natural: tree
+      species: "Olea europaea"
+    addTags:
+      natural: tree
+      genus: "Olea"
+      species: "Olea europaea"
+
+  kiwi:
+    name: "🥝 Kiwi"
+    terms: [kiwi, actinidia, deliciosa]
+    area: false
+    tags:
+      natural: tree
+      species: "Actinidia deliciosa"
+    addTags:
+      natural: tree
+      genus: "Actinidia"
+      species: "Actinidia deliciosa"
+
+  ginkgo:
+    name: "🌳 Ginkgo"
+    terms: [ginkgo, ginkgo, biloba]
+    area: false
+    tags:
+      natural: tree
+      species: "Ginkgo biloba"
+    addTags:
+      natural: tree
+      genus: "Ginkgo"
+      species: "Ginkgo biloba"
+
+  monkey_puzzle:
+    name: "🌲 Monkey puzzle"
+    terms: [monkey puzzle, araucaria, araucana]
+    area: false
+    tags:
+      natural: tree
+      species: "Araucaria araucana"
+    addTags:
+      natural: tree
+      genus: "Araucaria"
+      species: "Araucaria araucana"
+
+  paulownia:
+    name: "🌸 Paulownia"
+    terms: [paulownia, paulownia, tomentosa]
+    area: false
+    tags:
+      natural: tree
+      species: "Paulownia tomentosa"
+    addTags:
+      natural: tree
+      genus: "Paulownia"
+      species: "Paulownia tomentosa"
+
+  robinia:
+    name: "💮 Robinia"
+    terms: [robinia, robinia, pseudoacacia]
+    area: false
+    tags:
+      natural: tree
+      species: "Robinia pseudoacacia"
+    addTags:
+      natural: tree
+      genus: "Robinia"
+      species: "Robinia pseudoacacia"
+
+  medlar:
+    name: "🟤 Medlar"
+    terms: [medlar, mespilus, germanica]
+    area: false
+    tags:
+      natural: tree
+      species: "Mespilus germanica"
+    addTags:
+      natural: tree
+      genus: "Mespilus"
+      species: "Mespilus germanica"
+
+  quince:
+    name: "🍐 Quince"
+    terms: [quince, cydonia, oblonga]
+    area: false
+    tags:
+      natural: tree
+      species: "Cydonia oblonga"
+    addTags:
+      natural: tree
+      genus: "Cydonia"
+      species: "Cydonia oblonga"
+
+  apple:
+    name: "🍏 Apple"
+    terms: [apple, malus, domestica]
+    area: false
+    tags:
+      natural: tree
+      species: "Malus domestica"
+    addTags:
+      natural: tree
+      genus: "Malus"
+      species: "Malus domestica"
+
+  pear:
+    name: "🍐 Pear"
+    terms: [pear, pyrus, communis]
+    area: false
+    tags:
+      natural: tree
+      species: "Pyrus communis"
+    addTags:
+      natural: tree
+      genus: "Pyrus"
+      species: "Pyrus communis"
+
+  plum:
+    name: "🫐 Plum"
+    terms: [plum, prunus, domestica]
+    area: false
+    tags:
+      natural: tree
+      species: "Prunus domestica"
+    addTags:
+      natural: tree
+      genus: "Prunus"
+      species: "Prunus domestica"
+
+  loquat:
+    name: "🟠 Loquat"
+    terms: [loquat, eriobotrya, japonica]
+    area: false
+    tags:
+      natural: tree
+      species: "Eriobotrya japonica"
+    addTags:
+      natural: tree
+      genus: "Eriobotrya"
+      species: "Eriobotrya japonica"
+
+  rowanberry:
+    name: "🔴 Rowanberry"
+    terms: [rowanberry, sorbus, aucuparia]
+    area: false
+    tags:
+      natural: tree
+      species: "Sorbus aucuparia"
+    addTags:
+      natural: tree
+      genus: "Sorbus"
+      species: "Sorbus aucuparia"
+
+  elderberry:
+    name: "⚫️ Elderberry"
+    terms: [elderberry, sambucus, nigra]
+    area: false
+    tags:
+      natural: tree
+      species: "Sambucus nigra"
+    addTags:
+      natural: tree
+      genus: "Sambucus"
+      species: "Sambucus nigra"
+
+  black_mulberry:
+    name: "⚫️ Black mulberry"
+    terms: [black mulberry, morus, nigra]
+    area: false
+    tags:
+      natural: tree
+      species: "Morus nigra"
+    addTags:
+      natural: tree
+      genus: "Morus"
+      species: "Morus nigra"
+
+  red_mulberry:
+    name: "🔴 Red mulberry"
+    terms: [red mulberry, morus, rubra]
+    area: false
+    tags:
+      natural: tree
+      species: "Morus rubra"
+    addTags:
+      natural: tree
+      genus: "Morus"
+      species: "Morus rubra"
+
+  white_mulberry:
+    name: "⚪️ White mulberry"
+    terms: [white mulberry, morus, alba]
+    area: false
+    tags:
+      natural: tree
+      species: "Morus alba"
+    addTags:
+      natural: tree
+      genus: "Morus"
+      species: "Morus alba"
+
+  blackberry:
+    name: "🍇 Blackberry"
+    terms: [blackberry, rubus, fruticosus]
+    area: false
+    tags:
+      natural: tree
+      species: "Rubus fruticosus"
+    addTags:
+      natural: tree
+      genus: "Rubus"
+      species: "Rubus fruticosus"
+
+  chestnut:
+    name: "🌰 Chestnut"
+    terms: [chestnut, castanea, sativa]
+    area: false
+    tags:
+      natural: tree
+      species: "Castanea sativa"
+    addTags:
+      natural: tree
+      genus: "Castanea"
+      species: "Castanea sativa"
+
+  hazelnut:
+    name: "🌰 Hazelnut"
+    terms: [hazelnut, corylus, avellana]
+    area: false
+    tags:
+      natural: tree
+      species: "Corylus avellana"
+    addTags:
+      natural: tree
+      genus: "Corylus"
+      species: "Corylus avellana"
+
+  walnut:
+    name: "🌰 Walnut"
+    terms: [walnut, juglans, regia]
+    area: false
+    tags:
+      natural: tree
+      species: "Juglans regia"
+    addTags:
+      natural: tree
+      genus: "Juglans"
+      species: "Juglans regia"
+
+kinds:
+  fig:
+    matcher:
+      natural:
+        only: [tree]
+      species:
+        only: ["Ficus carica"]
+
+  knownTree:
+    matcher:
+      natural:
+        only: [tree]
+      species:
+        except: []
+
+  unknownTree:
+    matcher:
+      natural:
+        only: [tree]
+      species:
+        only: []
+
+fields:
+  access_i:
+    type: combo
+    key: access
+    label: Access
+    options:
+      - "yes"
+      - "private"
+      - "permissive"
+    labels:
+      - "Public"
+      - "Private"
+      - "Permissive"
+  age_i:
+    type: combo
+    key: age
+    label: Age
+    options:
+      - "young"
+      - "semi-mature"
+      - "mature"
+    labels:
+      - "Young"
+      - "Semi-mature"
+      - "Mature"
+  species_i:
+    type: combo
+    customValues: true
+    key: species
+    label: Species
+    options:
+      - "Ficus carica"
+      - "Prunus avium"
+      - "Prunus cerasifera"
+      - "Diospyros kaki"
+      - "Punica granatum"
+      - "Olea europaea"
+      - "Actinidia deliciosa"
+      - "Ginkgo biloba"
+      - "Araucaria araucana"
+      - "Paulownia tomentosa"
+      - "Robinia pseudoacacia"
+      - "Mespilus germanica"
+      - "Cydonia oblonga"
+      - "Malus domestica"
+      - "Pyrus communis"
+      - "Prunus domestica"
+      - "Eriobotrya japonica"
+      - "Sorbus aucuparia"
+      - "Sambucus nigra"
+      - "Morus nigra"
+      - "Morus rubra"
+      - "Morus alba"
+      - "Rubus fruticosus"
+      - "Castanea sativa"
+      - "Corylus avellana"
+      - "Juglans regia"
+    labels:
+      - "🟣 Fig"
+      - "🍒 Cherry"
+      - "🍒 Cherry plum"
+      - "🍑 Kaki"
+      - "🍎 Pomegranate"
+      - "🫒 Olive"
+      - "🥝 Kiwi"
+      - "🌳 Ginkgo"
+      - "🌲 Monkey puzzle"
+      - "🌸 Paulownia"
+      - "💮 Robinia"
+      - "🟤 Medlar"
+      - "🍐 Quince"
+      - "🍏 Apple"
+      - "🍐 Pear"
+      - "🫐 Plum"
+      - "🟠 Loquat"
+      - "🔴 Rowanberry"
+      - "⚫️ Elderberry"
+      - "⚫️ Black mulberry"
+      - "🔴 Red mulberry"
+      - "⚪️ White mulberry"
+      - "🍇 Blackberry"
+      - "🌰 Chestnut"
+      - "🌰 Hazelnut"
+      - "🌰 Walnut"
+
+modes:
+  micro:
+    markers:
+      fig:
+        icon: fig.svg
+      knownTree:
+        icon: tree-ok.svg
+      unknownTree:
+        icon: tree-ko.svg
