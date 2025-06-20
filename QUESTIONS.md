@@ -5,3 +5,5 @@
 - Another `bug` none of my translations from `fr.yaml are applied. My phone is in french and the inside app setting is also french.
 - Since I defined a lot of presets and for example the preset `🟣 fig` which is a `natural=tree` and `species=Ficus carica`. I was hopping, that after create `🟣 fig` POI, that the title of the edit windows will be `🟣 fig` and not the classic `Tree`. I guess the default preset `Tree` for `natural=tree` is **stronger** that my `🟣 fig` preset. Is it intended or a bug?
 - I tried to make a matcher for `natural=tree` and `species=Ficus carica` to display my custom `fig.svg` icon, but I didn't succeed. Can you please review my `plugin.yaml`?
+
+- While installing a 404 not found plugin. EveryDoor should show error "plugin not found" instead of a zip extract error.

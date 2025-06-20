@@ -327,23 +327,26 @@ kinds:
   fig:
     matcher:
       natural:
-        only: [tree]
-      species:
-        only: ["Ficus carica"]
+        when:
+          tree:
+            species:
+              only: ["Ficus carica"]
 
   knownTree:
     matcher:
       natural:
-        only: [tree]
-      species:
-        except: []
+        when:
+          tree:
+            species:
+              except: []
 
   unknownTree:
     matcher:
-      natural:
-        only: [tree]
-      species:
-        only: []
+      when:
+        natural:
+          tree:
+            species:
+              only: []
 
 fields:
   access_i:
