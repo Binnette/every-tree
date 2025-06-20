@@ -24,6 +24,9 @@ The plugin provides a set of common tree species presets to help you tag tree sp
 ### Using bash
 
 ```bash
+# Remove old files
+rm -f every-tree.edp every-door-micro.edp
+
 # Create the classic plugin
 zip -r every-tree.edp icons/ langs/ LICENSE plugin.yaml
 
