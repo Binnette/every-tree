@@ -324,13 +324,6 @@ presets:
       species: "Juglans regia"
 
 kinds:
-  fig:
-    matcher:
-      natural:
-        when:
-          tree:
-            species:
-              only: ["Ficus carica"]
   tree:
     matcher:
       natural:

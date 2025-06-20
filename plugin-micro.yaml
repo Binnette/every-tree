@@ -324,29 +324,10 @@ presets:
       species: "Juglans regia"
 
 kinds:
-  fig:
+  tree:
     matcher:
       natural:
-        when:
-          tree:
-            species:
-              only: ["Ficus carica"]
-
-  knownTree:
-    matcher:
-      natural:
-        when:
-          tree:
-            species:
-              except: []
-
-  unknownTree:
-    matcher:
-      when:
-        natural:
-          tree:
-            species:
-              only: []
+        only: [tree]
 
 fields:
   access_i:
@@ -437,8 +418,54 @@ modes:
   micro:
     markers:
       fig:
-        icon: fig.svg
-      knownTree:
-        icon: tree-ok.svg
-      unknownTree:
-        icon: tree-ko.svg
+        icon: "🟣"
+      cherry:
+        icon: "🍒"
+      cherry_plum:
+        icon: "🍒"
+      kaki:
+        icon: "🍑"
+      pomegranate:
+        icon: "🍎"
+      olive:
+        icon: "🫒"
+      kiwi:
+        icon: "🥝"
+      ginkgo:
+        icon: "🌳"
+      monkey_puzzle:
+        icon: "🌲"
+      paulownia:
+        icon: "🌸"
+      robinia:
+        icon: "💮"
+      medlar:
+        icon: "🟤"
+      quince:
+        icon: "🍐"
+      apple:
+        icon: "🍏"
+      pear:
+        icon: "🍐"
+      plum:
+        icon: "🫐"
+      loquat:
+        icon: "🟠"
+      rowanberry:
+        icon: "🔴"
+      elderberry:
+        icon: "⚫️"
+      black_mulberry:
+        icon: "⚫️"
+      red_mulberry:
+        icon: "🔴"
+      white_mulberry:
+        icon: "⚪️"
+      blackberry:
+        icon: "🍇"
+      chestnut:
+        icon: "🌰"
+      hazelnut:
+        icon: "🌰"
+      walnut:
+        icon: "🌰"
