@@ -41,7 +41,17 @@ rm -rf tmp-edp
 ### Using PowerShell
 
 ```powershell
-Compress-Archive -Path icons/*, langs/*, LICENSE, plugin.yaml, README.md -DestinationPath every-tree.edp
+# Remove old files
+Remove-Item every-tree.edp, every-tree-micro.edp
+# Create the classic plugin
+Compress-Archive -Path icons, langs, LICENSE, plugin.yaml, README.md -DestinationPath every-tree.edp
+
+# Create the micro version of the plugin
+New-Item -Type Directory tmp-edp -Force | Out-Null
+Copy-Item icons, langs, LICENSE, README.md -Destination tmp-edp -Recurse
+Copy-Item plugin-micro.yaml -Destination .\tmp-edp\plugin.yaml
+Compress-Archive -Path .\tmp-edp\* -DestinationPath every-tree-micro.edp
+Remove-Item tmp-edp -Recurse -Force
 ```
 
 ## 📥 How to install the plugin

@@ -625,11 +625,11 @@ modes:
       cherry:
         icon: cherry.svg # U+1F352 # 🍒
       cherry_plum:
-        icon: u+1f525 # 🍒
+        icon: cherry_plum.svg # u+1f525 # 🍒
       kaki:
-        icon: "u+1f351" # 🍑
+        icon: kaki.svg # "u+1f351" # 🍑
       pomegranate:
-        icon: U+1F34E # 🍎
+        icon: pomegranate.svg # U+1F34E # 🍎
       olive:
         icon: U+1FAD2 # 🫒
       kiwi:
