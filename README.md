@@ -8,8 +8,8 @@ A plugin for `Every Door` to contribute 🌳 **trees** in OpenStreetMap.
 
 ### 👀 Quick survey of tree species
 
-- Trees with known species are green
-- Others are in brown
+- Trees with known species are **green 🟩**
+- Others are in **brown 🟫**
 
 ![Main](assets/main.png)
 

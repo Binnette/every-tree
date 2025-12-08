@@ -36,6 +36,11 @@ fields.age_i.labels:
   - "Jeune"
   - "Semi-mature"
   - "Mature"
+fields.health_i.label: "État phyto"
+fields.health_i.labels:
+  - "Bon"
+  - "Moyen"
+  - "Mauvais"
 fields.species_i.label: "Espèce"
 fields.species_i.labels:
   - "🟣 Figuier"
@@ -54,7 +59,7 @@ fields.species_i.labels:
   - "🍏 Pommier"
   - "🍐 Poirier"
   - "🫐 Prunier"
-  - "🟠 Nèflier du Japon"
+  - "🟠 Néflier du Japon"
   - "🔴 Sorbier"
   - "⚫️ Sureau"
   - "⚫️ Mûrier noir"

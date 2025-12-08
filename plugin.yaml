@@ -536,6 +536,18 @@ fields:
       - "Young"
       - "Semi-mature"
       - "Mature"
+  health_i:
+    type: combo
+    key: health:phyto_status
+    label: Phyto status
+    options:
+    - "good"
+    - "average"
+    - "bad"
+    labels:
+    - "Good"
+    - "Average"
+    - "Bad"
   species_i:
     type: combo
     customValues: true
@@ -618,7 +630,11 @@ modes:
       kind: tree
       fields:
         - species_i
+        - genus
         - access_i
         - age_i
+        - health_i
         - leaf_type
+        - height
+        - ref:FR:Echirolles:trees
         - description
